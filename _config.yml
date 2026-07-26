@@ -1,11 +1,11 @@
 # ============================================================
 # STEP 1: Your Identity (required)
 # ============================================================
-name: "Emma Linscomb"
-title: "Physics Undergraduate and Researcher"
+name: "Braden Kennedy"
+title: "Mechanical Engineering, Engineering Physics"
 institution: "Cornell University"
-email: egl49@cornell.edu
-photo: Emma_Headshot.jpeg  # place your photo in images/
+email: braden@kennedyabc.com
+photo:   # place your photo in images/
 
 # ============================================================
 # STEP 2: Your Links (optional -- delete any you don't use)
@@ -16,8 +16,8 @@ links:
   researchgate: ""
   orcid: "https://orcid.org/0009-0004-0273-112X"
   twitter: ""
-  linkedin: "https://www.linkedin.com/in/emma-grace-linscomb/"
-  cv: "papers/Emma_Linscomb_CV-9.pdf"  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
+  linkedin: "https://www.linkedin.com/in/bradenkennedy101/"
+  cv: ""  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
 
 # ============================================================
 # STEP 3: Site Settings
@@ -38,13 +38,13 @@ analytics:
 # ============================================================
 nav_pages:
   - name: about
-  - name: presentations
+  - name: Acbotics
   # - name: publications
-  - name: research
+  - name: CUAUV
   # - name: awards
   # - name: software
   # - name: team
-  - name: teaching
+  - name: research
   - name: leadership
   # - name: activities
   # - name: blogs
@@ -80,8 +80,8 @@ kramdown:
 plugins: ["jekyll/scholar", "jekyll-sitemap"]
 
 scholar:
-  last_name: Linscomb
-  first_name: [Emma, Emma Grace, E.]
+  last_name: Kennedy
+  first_name: [Braden, Braden Addison, B.]
   style: citesty
   locale: en
   source: /assets/
