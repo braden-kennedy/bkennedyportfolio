@@ -37,15 +37,15 @@ analytics:
 # STEP 4: Choose Your Pages (comment out any you don't need)
 # ============================================================
 nav_pages:
-  - name: about
+  - name: About
   - name: Acbotics
   # - name: publications
-  - name: CUAUV
+  - name: Autonomous Vehicle
   # - name: awards
   # - name: software
   # - name: team
-  - name: research
-  - name: leadership
+  - name: Research
+  - name: Other/Older Projects
   # - name: activities
   # - name: blogs
 
