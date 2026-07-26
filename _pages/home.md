@@ -12,8 +12,6 @@ permalink: /
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">CAD/FEA - Solidworks, Fusion, Ansys</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Fabrication - FDM Printing, Manual & CNC Machining, GD&T</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Software - Python, MATLAB, GitHub</a>
-
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip" style="border-style: dashed; opacity: 0.9;" title="Prospective Graduate Interest">Astroparticle Physics</a>
 </div>
 
 Thanks for stopping by to my online portfolio! Here, you can find longer descriptions of my previous and current work than what fits onto my resume or LinkedIn, accompanied by more links and photos.
