@@ -7,11 +7,11 @@ permalink: /about/
 
 ## About Me
 
-I am pursuing a B.A. in Physics in the College of Arts and Sciences at Cornell University, and am looking to start a PhD in Astrophysics after I graduate in May 2027. 
+I am a Senior Engineering Physics student at Cornell University interested in pursuing an accelerated M.Eng in Mechanical Engineering and gaining professional experience in hardware design for sensor-rich and autonomous systems. During the past three years, I have designed several underwater pressure vessels for Cornell's AUV team, iterated over several prototypes of eDNA samplers and underwater acoustic systems at Acbotics Research, and optimized a high-energy x-ray experimental apparatus in the Franck Lab at Cornell to measure Intra-Atomic Bremsstrahlung (IAB). I am drawn towards projects with unique constraints and challenging environments where I can leverage my applied physics background to inform my designs.
 
-I currently conduct numerical relativity research under the mentorship of Prof. Nils Deppe, as a part of the Simulating eXtreme Spacetimes (SXS) Collaboration. I also have experience with historical observational astronomy through my Summer 2025 internship at Yerkes Observatory, where I worked with Dr. Amanda Bauer to conduct a longitudinal growth study of the Dumbbell Nebula. In the summer of 2024, I was granted a Nexus Scholars research position to work with Prof. Abigail Crites on instrumentation for TIME, an observational cosmology experiment. 
+I am currently seeking Summer 2027 internships in robotics, aerospace, and hardware R&D as well as full-time employment starting in Spring 2028.
 
-While I am not in class or at the lab, you can find me with the Cornell Society of Physics Students as their President, or singing with Hearsay A Cappella as their Assistant Music Director and Choreography Chair.
+Outside of classes and engineering projects, I enjoy running, hiking, and being outdoors! When the weather is warm, I like planning small camping trips and day hikes. Once colder winter days arrive, I can be found teaching new tabletop games to my friends or reading from my chess book library.
 
 <div class="section-card">
 <div class="pi-card">
