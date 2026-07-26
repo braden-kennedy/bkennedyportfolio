@@ -1,0 +1,111 @@
+# ============================================================
+# STEP 1: Your Identity (required)
+# ============================================================
+name: "Emma Linscomb"
+title: "Physics Undergraduate and Researcher"
+institution: "Cornell University"
+email: egl49@cornell.edu
+photo: Emma_Headshot.jpeg  # place your photo in images/
+
+# ============================================================
+# STEP 2: Your Links (optional -- delete any you don't use)
+# ============================================================
+links:
+  google_scholar: ""
+  github: ""
+  researchgate: ""
+  orcid: "https://orcid.org/0009-0004-0273-112X"
+  twitter: ""
+  linkedin: "https://www.linkedin.com/in/emma-grace-linscomb/"
+  cv: "papers/Emma_Linscomb_CV-9.pdf"  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
+
+# ============================================================
+# STEP 3: Site Settings
+# ============================================================
+accent_color: '#733BEB'     # theme color for links and buttons
+dark_mode: true             # show dark mode toggle in navbar
+default_dark: false         # landing page defaults to light mode
+description: "Academic webpage of Emma Linscomb"
+baseurl: ""
+url: ""
+
+# Google Analytics — paste your GA4 measurement ID, or leave blank
+analytics:
+  google_id: ""
+
+# ============================================================
+# STEP 4: Choose Your Pages (comment out any you don't need)
+# ============================================================
+nav_pages:
+  - name: about
+  - name: presentations
+  # - name: publications
+  - name: research
+  # - name: awards
+  # - name: software
+  # - name: team
+  - name: teaching
+  - name: leadership
+  # - name: activities
+  # - name: blogs
+
+# ============================================================
+# Advanced Settings (you probably don't need to change these)
+# ============================================================
+include:
+  - .htaccess
+  - _pages
+
+sass:
+  quiet_deps: true
+  style: compressed
+
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true
+
+plugins: ["jekyll/scholar", "jekyll-sitemap"]
+
+scholar:
+  last_name: Linscomb
+  first_name: [Emma, Emma Grace, E.]
+  style: citesty
+  locale: en
+  source: /assets/
+  bibliography: ref.bib
+  bibliography_template: bibtemplate
+  sort_by: year, month
+  order: descending
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+  query: "@*"
+  bibliography_list_attributes:
+    reversed: "reversed"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - update_bootstrap.sh
+  - switch_theme.sh
+  - tags
+  - Rakefile
+  - node_modules
+  - package.json
+  - package-lock.json
+  - docs

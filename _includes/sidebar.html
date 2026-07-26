@@ -1,0 +1,72 @@
+<div class="profile-card">
+<a href="{{ site.url }}{{ site.baseurl }}/about">
+<img src="{{ site.url }}{{ site.baseurl }}/images/{{ site.photo }}" class="profile-photo" alt="{{ site.name }}" loading="lazy">
+</a>
+<h4 class="profile-name">{{ site.name }}</h4>
+<p class="profile-title">{{ site.title }}</p>
+<p class="profile-institution">{{ site.institution }}</p>
+<div class="profile-links">
+{% if site.email %}<a href="mailto:{{ site.email }}" class="icon-link" title="Email"><i class="fa-solid fa-envelope"></i></a>{% endif %}
+{% if site.links.cv and site.links.cv != "" %}<a href="{{ site.url }}{{ site.baseurl }}/{{ site.links.cv }}" class="icon-link" title="CV"><i class="ai ai-cv"></i></a>{% endif %}
+{% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}" class="icon-link" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
+{% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}" class="icon-link" title="GitHub"><i class="fa-brands fa-github"></i></a>{% endif %}
+{% if site.links.researchgate and site.links.researchgate != "" %}<a href="{{ site.links.researchgate }}" class="icon-link" title="ResearchGate"><i class="ai ai-researchgate"></i></a>{% endif %}
+{% if site.links.orcid and site.links.orcid != "" %}<a href="{{ site.links.orcid }}" class="icon-link" title="ORCID"><i class="ai ai-orcid"></i></a>{% endif %}
+{% if site.links.twitter and site.links.twitter != "" %}<a href="{{ site.links.twitter }}" class="icon-link" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>{% endif %}
+{% if site.links.linkedin and site.links.linkedin != "" %}<a href="{{ site.links.linkedin }}" class="icon-link" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>{% endif %}
+</div>
+{% if site.data.pi[0].educationshort %}
+<ul style="text-align: left; margin-top: var(--space-4); list-style: none; padding-left: 0;">
+{% for education in site.data.pi[0].educationshort %}
+<li style="font-size: 0.875rem; color: var(--text-secondary); padding: var(--space-1) 0;">{{ education | replace: "-","&#8211;" }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+</div>
+
+<!-- Curated Skills Sidebar Widget (Using native section-card layout framework) -->
+<div class="section-card" style="margin-top: var(--space-6);">
+  <h4 style="margin-top: 0; margin-bottom: 18px;">Skills Focus</h4>
+
+  <!-- Hard Skills Section -->
+  <div style="margin-bottom: 20px;">
+    <h5 style="margin: 0 0 10px 0; font-size: 0.8em; font-weight: 700; color: #733BEB; text-transform: uppercase; letter-spacing: 0.5px;">Technical Stack</h5>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+      <span class="tech-badge" style="font-size: 0.85em; font-weight: 600; padding: 6px 12px; border-radius: 20px; background-color: var(--global-divider-color, rgba(115, 59, 235, 0.15)); color: #733BEB;">Python</span>
+      <span class="tech-badge" style="font-size: 0.85em; font-weight: 600; padding: 6px 12px; border-radius: 20px; background-color: var(--global-divider-color, rgba(115, 59, 235, 0.15)); color: #733BEB;">C++</span>
+      <span class="tech-badge" style="font-size: 0.85em; font-weight: 600; padding: 6px 12px; border-radius: 20px; background-color: var(--global-divider-color, rgba(115, 59, 235, 0.15)); color: #733BEB;">Numerical Relativity</span>
+      <span class="tech-badge" style="font-size: 0.85em; font-weight: 600; padding: 6px 12px; border-radius: 20px; background-color: var(--global-divider-color, rgba(115, 59, 235, 0.15)); color: #733BEB;">Data Analysis</span>
+      <span class="tech-badge" style="font-size: 0.85em; font-weight: 600; padding: 6px 12px; border-radius: 20px; background-color: var(--global-divider-color, rgba(115, 59, 235, 0.15)); color: #733BEB;">Computational Physics</span>
+    </div>
+  </div>
+
+  <!-- Soft Skills Section -->
+  <div style="margin-bottom: 5px;">
+    <h5 class="soft-skills-title" style="margin: 0 0 10px 0; font-size: 0.8em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-secondary); opacity: 0.9;">Leadership & Impact</h5>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+      <span class="soft-badge" style="font-size: 0.85em; font-weight: 500; padding: 6px 12px; border-radius: 20px; background-color: var(--global-divider-color, rgba(255,255,255,0.06)); color: var(--global-text-color);">Project Management</span>
+      <span class="soft-badge" style="font-size: 0.85em; font-weight: 500; padding: 6px 12px; border-radius: 20px; background-color: var(--global-divider-color, rgba(255,255,255,0.06)); color: var(--global-text-color);">Science Communication</span>
+      <span class="soft-badge" style="font-size: 0.85em; font-weight: 500; padding: 6px 12px; border-radius: 20px; background-color: var(--global-divider-color, rgba(255,255,255,0.06)); color: var(--global-text-color);">Mentorship</span>
+    </div>
+  </div>
+
+  <!-- Link to interactive directory -->
+  <div style="margin-top: 20px; padding-top: 15px; border-top: 1px solid var(--global-border-color);">
+    <a href="{{ site.url }}{{ site.baseurl }}/allskills/" style="color: #733BEB; text-decoration: none; font-weight: 600; font-size: 0.9em; display: inline-flex; align-items: center;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
+      Explore full skills matrix →
+    </a>
+  </div>
+</div>
+
+<div class="section-card" style="margin-top: var(--space-6);">
+<h4 style="margin-top: 0;">News</h4>
+<div class="news-timeline">
+{% for article in site.data.news limit:3 %}
+<div class="news-item">
+<div class="news-date">{{ article.date }}</div>
+<div class="news-headline">{{ article.headline }}</div>
+</div>
+{% endfor %}
+</div>
+<p style="margin-top: var(--space-4);"><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">See all news &rarr;</a></p>
+</div>

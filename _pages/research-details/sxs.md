@@ -1,0 +1,194 @@
+---
+title: "Numerical Relativity of Neutron Star Binaries"
+layout: page
+permalink: /research/simulating-extreme-spacetimes/
+mathjax: true
+---
+
+I am working towards my senior thesis in this role, where I implement modified Tolman–Oppenheimer–Volkoff Equations in Python to numerically solve theoretical neutron stars with different equations of state (EOS), and perform error analysis to determine the validity of simulated solutions. The form of the TOV equations I am using are based on the ones defined by <a href="https://doi.org/10.48550/arXiv.gr-qc/9802072" target="_blank">Lindblom, Lee (1998)</a>, and  <a href="https://spectre-code.org/classRelativisticEuler_1_1Solutions_1_1TovSolution.html#details" target="_blank">SpECTRE’s TOV solver code</a>. The coupled ODE’s are as follows: 
+
+$$\frac{du}{dH} = -\frac{2u(1-2v)}{4\pi u p(h) + v}$$
+
+$$\frac{dv}{dH} = -(1-2v)\frac{4\pi u e(h) - v}{4\pi u p(h) + v}$$
+
+And the EOS that I work most frequently with is the polytropic EOS $p = K\rho^\Gamma$
+
+Currently, my project is to improve the simulated solutions of the TOV equations by performing an expansion around the singular point at the start of integration. I am working to implement this expansion completely analytically so that it can be generalizable to all equations of state. I have performed an integration for the first four orders of expansion and have performed an error comparison for each expansion order to determine the radius about the stellar center for which the expansion is valid. The error comparison looks like: 
+
+$$(h_c-h) \leq \frac{|u_1|}{|2u_2|} 10^{-15}$$
+
+And is generalizable to higher orders. This allows me to determine when the numerical error becomes smaller than machine precision. The final expansion terms that I have found are as follows:
+$$\begin{aligned}
+\frac{du}{dH} &= -\frac{3}{2 \pi \left(e_{c} + 3 p_{c}\right)} \\
+& \quad -2\frac{15(3p_c-e_c) - 9e_1}{20\pi ( e_c + 3p_c)^2}(H_c-H) \\
+& \quad -3\left[\frac{3p_c-5e_c}{4\pi (e_c+3p_c)^2} -\frac{3e_2}{14\pi (e_c+3p_c)^2} +\frac{3e_1(48e_1-95e_c-765p_c)}{700\pi (e_c+3p_c)^3}\right](H_c-H)^2 \\[2ex]
+\frac{dv}{dH} &= -\frac{2 e_{c}}{e_{c} + 3 p_{c}} \\
+& \quad -2\frac{5e_c(3p_c-e_c) + 3(e_c + 6p_c)e_1}{5(e_c+3p_c)^2}(H_c-H) \\
+& \quad -3\left[\frac{e_c(3p_c-5e_c)}{3(e_c+3p_c)^2} +\frac{2(2e_c+9p_c)e_2}{7(e_c+3p_c)^2} -\frac{5(46e_c^2+153e_cp_c-243p_c^2)e_1 + 3(11e_c+81p_c)e_1^2}{175(e_c+3p_c)^3}\right](H_c-H)^2
+\end{aligned}$$
+
+I am also investigating the tidal deformability factor of simulated neutron stars with different equations of state and whether future gravitational wave detectors will have a high enough resolution to detect any differences in neutron star inspirals that may indicate what equations of state are most accurate.
+
+## Appendix: Fluid Dynamics & Equation of State Framework
+
+### 1. Variables
+* **$u = r^2$**
+* **$v = \frac{m}{r}$**
+* **Mass Density ($\rho$)**
+* **Pressure ($p$)**
+* **Specific Internal Energy Density ($\epsilon$)**
+* **Total Energy Density ($e$):** $$e = \rho(1 + \epsilon)$$
+* **Relativistic Enthalpy ($h$):** $$h = \frac{e + p}{\rho} = 1 + \epsilon + \frac{p}{\rho}$$
+* **Logarithmic Enthalpy ($H$):** $$H = \ln(h)$$
+
+---
+
+### 2. Polytropic Relations
+Using adiabatic index $\Gamma$ and coefficient $K$:
+
+#### Specific Internal Energy Density
+$$\epsilon = \frac{K \rho^{\Gamma-1}}{\Gamma - 1} = \frac{p}{(\Gamma - 1)\rho}$$
+
+#### Total Energy Density
+$$e = \rho \left(1 + \frac{K\rho^{\Gamma-1}}{\Gamma - 1}\right)$$
+
+#### Specific Enthalpy
+$$h = 1 + \frac{K\rho^{\Gamma-1}}{\Gamma - 1} + K\rho^{\Gamma-1} = 1 + \frac{\Gamma K \rho^{\Gamma-1}}{\Gamma - 1}$$
+
+#### Density Inversion
+$$\rho = \left[ \frac{\Gamma - 1}{\Gamma K} (h - 1) \right]^{\frac{1}{\Gamma - 1}}$$
+
+---
+
+### 3. Scaling Approximations
+We can also perform a volume approximation along the lines of: 
+
+$$\begin{aligned}
+v &\approx \frac{4}{3}\pi u e \\[1ex]
+\frac{m}{r} &\approx \frac{4}{3}\pi r^2 e
+\end{aligned}$$
+
+<div class="custom-gallery-container" style="margin: 30px 0; overflow: hidden; width: 100%;">
+<div class="custom-gallery-scroll" style="display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 12px; -webkit-overflow-scrolling: touch;">
+
+<div class="gallery-item" style="flex: 0 0 300px; scroll-snap-align: start; display: flex; flex-direction: column; background-color: var(--global-card-bg, rgba(255, 255, 255, 0.02)); border: 1px solid var(--global-border-color, rgba(255,255,255,0.1)); border-radius: 8px; overflow: hidden; transition: border-color 0.2s ease, transform 0.2s ease;">
+<div style="width: 100%; height: 200px; overflow: hidden;">
+<a href="#img1-lightbox"><img src="{{ site.baseurl }}/images/research/u_expansion_order.jpeg" alt="Comparison of u expansion orders to legacy solver" style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;"></a>
+</div>
+<div class="gallery-caption" style="padding: 12px; font-size: 0.85em; color: var(--global-text-color); line-height: 1.4; border-top: 1px solid var(--global-border-color, rgba(255,255,255,0.1));">
+A diagnostic plot that shows the convergence of the ODE expansions towards the solution of the solver implemented in the original SpECTRE code.
+</div>
+</div>
+<div id="img1-lightbox" class="lightbox-overlay">
+<a href="#_" class="lightbox-close-bg"></a>
+<div class="lightbox-content">
+<img src="{{ site.baseurl }}/images/research/u_expansion_order.jpeg" alt="Comparison of u expansion orders to legacy solver">
+<a href="#_" class="lightbox-close-btn">&times;</a>
+</div>
+</div>
+
+<div class="gallery-item" style="flex: 0 0 300px; scroll-snap-align: start; display: flex; flex-direction: column; background-color: var(--global-card-bg, rgba(255, 255, 255, 0.02)); border: 1px solid var(--global-border-color, rgba(255,255,255,0.1)); border-radius: 8px; overflow: hidden; transition: border-color 0.2s ease, transform 0.2s ease;">
+<div style="width: 100%; height: 200px; overflow: hidden;">
+<a href="#img2-lightbox"><img src="{{ site.baseurl }}/images/research/u_residuals.jpeg" alt="Residual u plot" style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;"></a>
+</div>
+<div class="gallery-caption" style="padding: 12px; font-size: 0.85em; color: var(--global-text-color); line-height: 1.4; border-top: 1px solid var(--global-border-color, rgba(255,255,255,0.1));">
+A diagnostic plot that shows how the difference in u value changes as a function of H for each expansion order compared to the legacy solver.
+</div>
+</div>
+<div id="img2-lightbox" class="lightbox-overlay">
+<a href="#_" class="lightbox-close-bg"></a>
+<div class="lightbox-content">
+<img src="{{ site.baseurl }}/images/research/u_residuals.jpeg" alt="Residual u plot">
+<a href="#_" class="lightbox-close-btn">&times;</a>
+</div>
+</div>
+
+</div>
+</div>
+
+<style>
+.custom-gallery-scroll::-webkit-scrollbar {
+height: 6px;
+}
+.custom-gallery-scroll::-webkit-scrollbar-track {
+background: transparent;
+}
+.custom-gallery-scroll::-webkit-scrollbar-thumb {
+background: var(--global-divider-color, rgba(255, 255, 255, 0.15));
+border-radius: 10px;
+}
+.custom-gallery-scroll::-webkit-scrollbar-thumb:hover {
+background: #733BEB;
+}
+
+.gallery-item:hover {
+border-color: #733BEB !important;
+transform: translateY(-2px);
+}
+
+.lightbox-overlay {
+display: none;
+position: fixed;
+z-index: 9999;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+background: var(--global-bg-color, #fff);
+filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+align-items: center;
+justify-content: center;
+}
+@defaults {
+.lightbox-overlay {
+background: rgba(var(--global-bg-color-rgb, 0, 0, 0), 0.95);
+}
+}
+
+.lightbox-overlay:target {
+display: flex;
+}
+.lightbox-close-bg {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+cursor: default;
+}
+.lightbox-content {
+position: relative;
+max-width: 90%;
+max-height: 90%;
+box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+border-radius: 6px;
+overflow: hidden;
+display: flex;
+background: var(--global-card-bg, rgba(0,0,0,0.05));
+}
+.lightbox-content img {
+max-width: 100%;
+max-height: 85vh;
+object-fit: contain;
+margin: auto;
+}
+.lightbox-close-btn {
+position: absolute;
+top: 15px;
+right: 20px;
+color: var(--global-text-color, #000);
+font-size: 35px;
+text-decoration: none;
+font-weight: 300;
+line-height: 1;
+transition: transform 0.2s, color 0.2s;
+}
+.lightbox-close-btn:hover {
+color: #733BEB;
+transform: scale(1.1);
+}
+</style>
+
+<a href="{{ site.url }}{{ site.baseurl }}/research/" style="display: inline-block; background-color: rgba(115, 59, 235, 0.1); color: #733BEB; border: 1px solid #733BEB; padding: 6px 16px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: 500; margin-bottom: 30px; transition: background 0.2s;" onmouseover="this.style.backgroundColor='rgba(115, 59, 235, 0.2)'" onmouseout="this.style.backgroundColor='rgba(115, 59, 235, 0.1)'">
+← Back to Research
+</a>
