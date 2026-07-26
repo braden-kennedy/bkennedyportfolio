@@ -9,10 +9,9 @@ permalink: /
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
 <div class="chip-container" markdown="0">
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Numerical Relativity</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Computational Astrophysics</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Observational Astronomy</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Cosmology</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">CAD/FEA - Solidworks, Fusion, Ansys</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Fabrication - FDM Printing, Manual & CNC Machining, GD&T</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Software - Python, MATLAB, GitHub</a>
 
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip" style="border-style: dashed; opacity: 0.9;" title="Prospective Graduate Interest">Astroparticle Physics</a>
 </div>
