@@ -4,6 +4,7 @@
 
 # EXAMPLE -- replace or delete
 - education:
-    - "(Expected May 2027) B.S. Engineering Physics, Cornell University \n (Expected Dec. 2027) M.Eng. Mechancial Engineering, Cornell University"
+    - "(Expected May 2027) B.S. Engineering Physics, Cornell University"
+    - "(Expected Dec. 2027) M.Eng. Mechancial Engineering, Cornell University"
   educationshort:
     - "(Exp. May 2027) B.S. Engineering Physics, Cornell"
