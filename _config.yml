@@ -26,8 +26,8 @@ accent_color: '#733BEB'     # theme color for links and buttons
 dark_mode: true             # show dark mode toggle in navbar
 default_dark: false         # landing page defaults to light mode
 description: "Academic webpage of Emma Linscomb"
-baseurl: ""
-url: ""
+baseurl: "/bkennedyportfolio"
+url: "https://braden-kennedy.github.io"
 
 # Google Analytics — paste your GA4 measurement ID, or leave blank
 analytics:
