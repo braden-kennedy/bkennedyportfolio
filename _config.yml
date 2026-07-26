@@ -41,11 +41,13 @@ nav_pages:
   - name: acbotics
   # - name: publications
   - name: cuauv
+    label: "CU AUV"
   # - name: awards
   # - name: software
   # - name: team
   - name: research
   - name: other
+    label: "Other Projects/Experience
   # - name: activities
   # - name: blogs
 
