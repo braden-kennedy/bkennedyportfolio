@@ -2,10 +2,10 @@
 # STEP 1: Your Identity (required)
 # ============================================================
 name: "Braden Kennedy"
-title: "Mechanical Engineering, Engineering Physics"
+title: "Mechanical Engineering & Engineering Physics"
 institution: "Cornell University"
 email: braden@kennedyabc.com
-photo:   # place your photo in images/
+photo: Braden_Headshot.jpg  # place your photo in images/
 
 # ============================================================
 # STEP 2: Your Links (optional -- delete any you don't use)
@@ -14,18 +14,18 @@ links:
   google_scholar: ""
   github: ""
   researchgate: ""
-  orcid: "https://orcid.org/0009-0004-0273-112X"
+  orcid: ""
   twitter: ""
   linkedin: "https://www.linkedin.com/in/bradenkennedy101/"
-  cv: ""  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
+  cv: "images/Braden_Kennedy_Resume_7_26.pdf"  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
 
 # ============================================================
 # STEP 3: Site Settings
 # ============================================================
-accent_color: '#733BEB'     # theme color for links and buttons
+accent_color: '#f57e4e'     # theme color for links and buttons
 dark_mode: true             # show dark mode toggle in navbar
 default_dark: false         # landing page defaults to light mode
-description: "Academic webpage of Emma Linscomb"
+description: "Online Portfolio of Braden Kennedy"
 baseurl: "/bkennedyportfolio"
 url: "https://braden-kennedy.github.io"
 
