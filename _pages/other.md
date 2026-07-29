@@ -1,6 +1,6 @@
 ---
 title: "Other"
-layout: gridlay
+layout: fullwidth
 sitemap: false
 permalink: /other/
 ---
