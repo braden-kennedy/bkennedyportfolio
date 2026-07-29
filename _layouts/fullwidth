@@ -1,0 +1,7 @@
+---
+layout: default
+---
+
+<div class="fade-in-section full-width-content">
+  {{ content }}
+</div>
