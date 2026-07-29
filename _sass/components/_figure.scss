@@ -14,13 +14,12 @@
   display: block;
 }
 
-.figure-card figcaption {
+.figure-caption {
   font-size: 0.875rem;
   color: var(--text-secondary, #666);
   padding-top: var(--space-2, 0.5rem);
 }
 
-/* Float left/right so text wraps around it, like a figure in a paper */
 .figure-left {
   float: left;
   margin-right: var(--space-4, 1.5rem);
@@ -31,7 +30,6 @@
   margin-left: var(--space-4, 1.5rem);
 }
 
-/* Full width: breaks out of the text flow entirely */
 .figure-full {
   float: none;
   width: 100%;
@@ -40,7 +38,6 @@
   clear: both;
 }
 
-/* Stack on mobile so floated images don't cramp narrow columns */
 @media (max-width: 768px) {
   .figure-left,
   .figure-right {
