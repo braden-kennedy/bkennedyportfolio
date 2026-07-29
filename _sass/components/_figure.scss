@@ -1,0 +1,51 @@
+.figure-card {
+  background: var(--bg-secondary, #fff);
+  border-radius: var(--radius, 12px);
+  box-shadow: var(--shadow, 0 2px 8px rgba(0,0,0,0.08));
+  padding: var(--space-2, 0.5rem);
+  margin: var(--space-4, 1rem) 0;
+  text-align: center;
+}
+
+.figure-card img {
+  width: 100%;
+  height: auto;
+  border-radius: calc(var(--radius, 12px) - 4px);
+  display: block;
+}
+
+.figure-card figcaption {
+  font-size: 0.875rem;
+  color: var(--text-secondary, #666);
+  padding-top: var(--space-2, 0.5rem);
+}
+
+/* Float left/right so text wraps around it, like a figure in a paper */
+.figure-left {
+  float: left;
+  margin-right: var(--space-4, 1.5rem);
+}
+
+.figure-right {
+  float: right;
+  margin-left: var(--space-4, 1.5rem);
+}
+
+/* Full width: breaks out of the text flow entirely */
+.figure-full {
+  float: none;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  clear: both;
+}
+
+/* Stack on mobile so floated images don't cramp narrow columns */
+@media (max-width: 768px) {
+  .figure-left,
+  .figure-right {
+    float: none;
+    width: 100% !important;
+    margin: var(--space-4, 1.5rem) 0;
+  }
+}
