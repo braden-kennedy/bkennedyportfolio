@@ -12,5 +12,7 @@ Parameters:
 
 {% assign fig_position = include.position | default: "full" %}
 {% assign fig_width = include.width | default: "300px" %}
-{% capture fig_html %}<div class="figure-card figure-{{ fig_position }}"{% unless fig_position == "full" %} style="width: {{ fig_width }};"{% endunless %}><img src="{{ site.url }}{{ site.baseurl }}/images/{{ include.src }}" alt="{{ include.alt }}" loading="lazy">{% if include.caption %}<div class="figure-caption">{{ include.caption }}</div>{% endif %}</div>{% endcapture %}
-{{ fig_html | strip_newlines }}
+<div class="figure-card figure-{{ fig_position }}" markdown="0"{% unless fig_position == "full" %} style="width: {{ fig_width }};"{% endunless %}>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ include.src }}" alt="{{ include.alt }}" loading="lazy">
+  {% if include.caption %}<div class="figure-caption">{{ include.caption }}</div>{% endif %}
+</div>
