@@ -1,35 +1,67 @@
 .figure-card {
-  background: var(--bg-secondary, #fff);
-  border-radius: var(--radius, 12px);
-  box-shadow: var(--shadow, 0 2px 8px rgba(0,0,0,0.08));
-  padding: var(--space-2, 0.5rem);
-  margin: var(--space-4, 1rem) 0;
-  text-align: center;
+  background: linear-gradient(
+    145deg,
+    var(--bg-card) 0%,
+    var(--bg-secondary) 100%
+  );
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
+  margin: var(--space-4) 0;
+
+  // Decorative accent bar at top, matching profile-card
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent), var(--accent-hover));
+    z-index: 1;
+  }
+
+  .figure-image-wrap {
+    overflow: hidden;
+  }
+
+  .figure-image-wrap img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  &:hover .figure-image-wrap img {
+    transform: scale(1.04);
+  }
+
+  .figure-caption {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    text-align: center;
+    padding: var(--space-4) var(--space-4);
+    margin-top: var(--space-2);
+    border-top: 1px solid var(--border-color);
+  }
 }
 
-.figure-card img {
-  width: 100%;
-  height: auto;
-  border-radius: calc(var(--radius, 12px) - 4px);
-  display: block;
-}
-
-.figure-caption {
-  font-size: 0.875rem;
-  color: var(--text-secondary, #666);
-  padding-top: var(--space-2, 0.5rem);
-}
-
+// Float left/right so text wraps around it
 .figure-left {
   float: left;
-  margin-right: var(--space-4, 1.5rem);
+  margin-right: var(--space-6);
+  margin-bottom: var(--space-4);
 }
 
 .figure-right {
   float: right;
-  margin-left: var(--space-4, 1.5rem);
+  margin-left: var(--space-6);
+  margin-bottom: var(--space-4);
 }
 
+// Full width: breaks out of the text flow entirely
 .figure-full {
   float: none;
   width: 100%;
@@ -43,6 +75,7 @@
   .figure-right {
     float: none;
     width: 100% !important;
-    margin: var(--space-4, 1.5rem) 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
