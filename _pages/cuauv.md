@@ -1,6 +1,6 @@
 ---
 title: "CU AUV"
-layout: gridlay
+layout: fullwidth
 sitemap: false
 permalink: /cuauv/
 ---
