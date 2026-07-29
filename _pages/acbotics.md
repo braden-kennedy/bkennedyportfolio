@@ -1,6 +1,6 @@
 ---
 title: "Acbotics"
-layout: gridlay
+layout: fullwidth
 sitemap: false
 permalink: /acbotics/
 ---
