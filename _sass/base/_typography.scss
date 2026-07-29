@@ -45,6 +45,10 @@ p {
   max-width: 65ch;
 }
 
+.full-width-content p {
+  max-width: none;
+}
+
 li {
   max-width: 65ch;
 }
