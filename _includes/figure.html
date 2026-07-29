@@ -1,0 +1,22 @@
+{% comment %}
+Usage:
+{% include figure.html src="project1/setup.jpg" alt="Test rig setup" caption="Our custom test rig for underwater trials." position="right" width="320px" %}
+
+Parameters:
+  src      - path relative to /images/ (required)
+  alt      - alt text for accessibility (required)
+  caption  - caption text shown below the image (optional)
+  position - "left", "right", or "full" (default: "full")
+  width    - CSS width for left/right images, e.g. "300px" or "40%" (default: "300px", ignored for "full")
+{% endcomment %}
+
+{% assign fig_position = include.position | default: "full" %}
+{% assign fig_width = include.width | default: "300px" %}
+
+<figure class="figure-card figure-{{ fig_position }}"
+        {% unless fig_position == "full" %}style="width: {{ fig_width }};"{% endunless %}>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ include.src }}" alt="{{ include.alt }}" loading="lazy">
+  {% if include.caption %}
+  <figcaption>{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>
