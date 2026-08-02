@@ -61,12 +61,10 @@
   margin-bottom: var(--space-4);
 }
 
-// Full width: breaks out of the text flow entirely
 .figure-full {
   float: none;
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
   clear: both;
 }
 
