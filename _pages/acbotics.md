@@ -7,11 +7,13 @@ permalink: /acbotics/
 
 ## AcSample Prototype
 
+{% include figure.html src="other/Screenshot 2026-08-02 114417.png" alt="A rendering of the wrench designed for the MAE 3720 final project." caption="A full render of the wrench I designed alongside a classmate for a final project in MAE 3720 - Mechanics of Engineering Materials. This wrench was modified from a base design to meet certain stress, strain, and fracture resistance criteria." position="full" %}
+
 ## AcSample Production
 
 ## PLUTOS Source Box
 
-{% include figure.html src="Braden_Headshot.jpg" alt="test" caption="Here's the full caption. This should be right-aligned." position="right" width="320px" %}
+{% include figure.html src="acbotics/PLUTOS_Source_Box_Assembly" alt=" " caption="The full assembly CAD model of the PLUTOS Source Box which I designed as one of my first projects at Acbotics during the summer of 2025. An underwater speaker plugs into the box on the side, and four buttons on the top allow the user to choose what sound to play. The box is IP-67 andhouses a Li-Ion battery, an amplifier, and other electronics. I built four of these units, and they were used for underwater acoustic experiments involving seal calls." position="full" %}
 
 Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. Here's some sample text. 
 
