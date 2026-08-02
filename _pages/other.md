@@ -21,7 +21,7 @@ We are using 7075-T6 aluminum alloy for our final torque wrench design, which we
 
 Our zero-displacement boundary condition remained unchanged between the baseline and final design. All five faces of the contact region at the end of the wrench are locked into place, with a 0.1” clearance given between this region and the rest of the wrench. A fillet connects the nub to the main body.
 
-{% include figure.html src="images/other/Screenshot 2026-07-31 113937.png" alt="The no-displacement boundary condition set for our simulation." caption="The applied force used for our simulation. Note that the force is now distributed across the entire handle rather than a point force at the very tip." position="right" width="320px" %}
+{% include figure.html src="other/Screenshot 2026-07-31 113937.png" alt="The no-displacement boundary condition set for our simulation." caption="The applied force used for our simulation. Note that the force is now distributed across the entire handle rather than a point force at the very tip." position="right" width="320px" %}
 
 We did significantly change the force being applied at the end of the wrench, to more accurately reflect how the wrench is used. Since we added a large, rubber handle around the circular region of the wrench, we assume that the applied force is distributed evenly around the entire surface of the handle. To ensure the overall torque being applied is roughly the same as in the baseline case, we extended the wrench so the middle of the handle is at a distance of 16 inches from the fixed region.
 
@@ -31,7 +31,7 @@ To generate a mesh, we had to deviate significantly from the baseline case due t
 
 The normal strain contour plot shows that, at the same 1 inch spacing used for the strain gauge in the baseline wrench, our updated design has a strain of 1.3931e-3/
 
-{% include figure.html src="other/Screenshot 2026-07-31 114025.png" alt="The no-displacement boundary condition set for our simulation." caption="The principal stress contour plot for our new wrench design. The  quarter-inch fillet is reducing the stress concentrations on the corners of the wrench, but some artificing due to our initial conditions may be occurring." position="right" width="320px" %}
+{% include figure.html src="other/Screenshot 2026-07-31 114025.png" alt="The no-displacement boundary condition set for our simulation." caption="The principal stress contour plot for our new wrench design. The  quarter-inch fillet is reducing the stress concentrations on the corners of the wrench, but some artifacting due to our initial conditions may be occurring." position="right" width="320px" %}
 
 The principal stress contour plot shows how our boundary conditions are creating an artificial stress concentration. The maximum reported stress is 2.00e5 psi (200 ksi), which is much greater than our analytical hand calculations predict. However, the maximum normal stress just 1 node away from this maximum already drops down to 70.5 ksi, and disperses even more heavily from there. If we more accurately modeled the boundary conditions between the wrench and the part it slots into to turn, we would be able to more precisely determine the maximum principal stress.
 
