@@ -7,12 +7,18 @@ Parameters:
   alt      - alt text for accessibility (required)
   caption  - caption text shown below the image (optional)
   position - "left", "right", or "full" (default: "full")
-  width    - CSS width for left/right images, e.g. "300px" or "40%" (default: "300px", ignored for "full")
+  width    - CSS width for left/right images, e.g. "300px" or "40%" (default: "300px" for left/right, 100% for full)
 {%- endcomment -%}
 
 {% assign fig_position = include.position | default: "full" %}
-{% assign fig_width = include.width | default: "300px" %}
-<div class="figure-card figure-{{ fig_position }}" markdown="0"{% unless fig_position == "full" %} style="width: {{ fig_width }};"{% endunless %}>
+{% if include.width %}
+  {% assign fig_width = include.width %}
+{% elsif fig_position == "full" %}
+  {% assign fig_width = "100%" %}
+{% else %}
+  {% assign fig_width = "300px" %}
+{% endif %}
+<div class="figure-card figure-{{ fig_position }}" markdown="0" style="width: {{ fig_width }};">
   <div class="figure-image-wrap">
     <img src="{{ site.url }}{{ site.baseurl }}/images/{{ include.src }}" alt="{{ include.alt }}" loading="lazy">
   </div>
