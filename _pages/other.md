@@ -11,7 +11,7 @@ permalink: /other/
 
 *This project post is modified from a final assignment for MAE 3720 - Mechanics of Engineering Materials.*
 
-{% include figure.html src="other/Screenshot 2026-08-02 114417.png" alt="A rendering of the wrench designed for the MAE 3720 final project." caption="A full render of the wrench I designed alongside a classmate for a final project in MAE 3720 - Mechanics of Engineering Materials. This wrench was modified from a base design to meet certain stress, strain, and fracture resistance criteria." position="full" %}
+{% include figure.html src="other/Screenshot 2026-08-02 114417.png" alt="A rendering of the wrench designed for the MAE 3720 final project." caption="A full render of the wrench I designed alongside a classmate for a final project in MAE 3720 - Mechanics of Engineering Materials. This wrench was modified from a base design to meet certain stress, strain, and fracture resistance criteria." position="full" width="450px" %}
 
 This is a render of our modified design of the torque wrench. It is made out of 7075-T6 aluminium, and has a rubber handle which makes it easier for a user to grip. The handle is circular, but transitions to a rectangular cross-section, similar to the baseline design. Key dimensions are shown in the drawing below (in inches). The cross-section of the rectangular portion of the wrench is 0.95” by 0.3”.
 
