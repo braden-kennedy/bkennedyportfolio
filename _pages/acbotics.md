@@ -27,7 +27,7 @@ Since the pump system itself and the electronics were going to be housed separat
 
 The plate was easy to cut, and the rest of the assembly came together quickly. I left one hole in the center that I mounted a thin steel pipe to, which became the carrying handle for the whole assembly. Small L-pieces were mounted next to each hole for the PVC pipes and provided a tab for metal pipe clamps to be secured around each pump housing. Two metal discs were then installed higher-up on the main shaft of the handle, which had slots cut in them so the electronics housing could be attached. Although the full assembly was large (when placed on the ground, the handle was around waist-high), it was balanced enough to be easy to dip into the water.
 
-{% include figure.html src="acbotics/Machined_TransducerCap.JPG" alt=" " caption="A machined PVC cap clamped down using a custom fixture." position="left" width="300px" %}
+{% include figure.html src="acbotics/Machined_TransducerCap.JPG" alt=" " caption="A machined PVC cap clamped down using a custom fixture." position="right" width="300px" %}
 
 After making the larger prototype, I also made a mounting bracket for the smaller design. The manufacturing process was nearly identical, except that I used Fusion CAM instead of the software provided with the machine. It took some time to get all of the settings configured in Fusion, but Fusion provides a lot more options for toolpaths and was a much more practical option long-term for Acbotics. Since there was no longer a flat, level surface for the assembly to sit on, I added a couple of threaded rods to the side with the electronics housing. This is the assembly at the top of this section.
 
