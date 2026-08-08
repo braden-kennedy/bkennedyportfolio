@@ -11,7 +11,7 @@ permalink: /acbotics/
 
 ## AcSample Production
 
-{% include figure.html src="acbotics/AcSample_CADFull.jpg" alt=" " caption="The full, assembled version of the first production AcSample models. Each unit consists of three separate pumps, each with their own flow sensors, that are fed into external filters chosen by the customer. The entire assembly is mounted to a red baseplate to make it easier to deploy at the desired depth. During the winter of 2025/2026 and the summer of 2026, I helped to refine the pre-production design into scalable, easy-to-assemble product and created lots of internal documentation (assembly instructions, engineering drawings, etc.)." position="full" width="450px" %}
+{% include figure.html src="acbotics/AcSample_CADFull.JPG" alt=" " caption="The full, assembled version of the first production AcSample models. Each unit consists of three separate pumps, each with their own flow sensors, that are fed into external filters chosen by the customer. The entire assembly is mounted to a red baseplate to make it easier to deploy at the desired depth. During the winter of 2025/2026 and the summer of 2026, I helped to refine the pre-production design into scalable, easy-to-assemble product and created lots of internal documentation (assembly instructions, engineering drawings, etc.)." position="full" width="450px" %}
 
 ## PLUTOS Source Box
 
