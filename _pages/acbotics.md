@@ -27,9 +27,9 @@ Since the pump system itself and the electronics were going to be housed separat
 
 The plate was easy to cut, and the rest of the assembly came together quickly. I left one hole in the center that I mounted a thin steel pipe to, which became the carrying handle for the whole assembly. Small L-pieces were mounted next to each hole for the PVC pipes and provided a tab for metal pipe clamps to be secured around each pump housing. Two metal discs were then installed higher-up on the main shaft of the handle, which had slots cut in them so the electronics housing could be attached. Although the full assembly was large (when placed on the ground, the handle was around waist-high), it was balanced enough to be easy to dip into the water.
 
-After making the larger prototype, I also made a mounting bracket for the smaller design. The manufacturing process was nearly identical, except that I used Fusion CAM instead of the software provided with the machine. It took some time to get all of the settings configured in Fusion, but Fusion provides a lot more options for toolpaths and was a much more practical option long-term for Acbotics. Since there was no longer a flat, level surface for the assembly to sit on, I added a couple of threaded rods to the side with the electronics housing. This is the assembly at the top of this section.
-
 {% include figure.html src="acbotics/Machined_TransducerCap.JPG" alt=" " caption="A machined PVC cap clamped down using a custom fixture." position="left" width="300px" %}
+
+After making the larger prototype, I also made a mounting bracket for the smaller design. The manufacturing process was nearly identical, except that I used Fusion CAM instead of the software provided with the machine. It took some time to get all of the settings configured in Fusion, but Fusion provides a lot more options for toolpaths and was a much more practical option long-term for Acbotics. Since there was no longer a flat, level surface for the assembly to sit on, I added a couple of threaded rods to the side with the electronics housing. This is the assembly at the top of this section.
 
 Finally, after designing these two prototypes, I was tasked with making a fixture for the desktop CNC machine that would allow us to more easily machine holes into the PVC caps. Prior to making this fixture, we had been measuring and drilling holes by hand (and using the drill press), which was time-consuming and inconsistent. I made a simple design consisting of a bottom plate and two clamps, and created a generic CAM file with the fixture modeled in (so toolpaths would automatically avoid the fixture or throw errors). After the first few caps were successful, I made two more fixtures for different plug sizes. The holes drilled in these plugs were inlet/outlet ports for each pump or bulkheads for other cables.
 
@@ -46,9 +46,9 @@ My very first project that I worked on at Acbotics was a sound source box design
 
 In my design, I decided to 3D-print a bezel with square nuts embedded into the print, and epoxied that bezel directly to the base of the case. Since the walls were thin and there were no internal mounting holes, the only other option would have been to drill through the case and seal each hole, which seemed more unreliable. Although the epoxy was messy to apply, it was easy to clean up before setting and provided the strength needed to hold components in place with the case at any angle.
 
-{% include figure.html src="acbotics/Kayak_PreDeployment.JPEG" alt=" " caption="Getting ready to deploy the hydrophone array to the middle of Ashumet Pond by kayak, for experimental testing." position="right" width="300px" %}
-
 I then machined an acrylic lid that attached to the bezel using a desktop CNC machine (a Carvera Air). The office had acquired the machine just a couple of weeks before my internship started, and while they had run some test files on it they had yet to use it for an actual project. I familiarized myself with the software and cut a few different versions of the lid as I iterated over the design. I was really happy with how sleek and clean the design looked!
+
+{% include figure.html src="acbotics/Kayak_PreDeployment.JPEG" alt=" " caption="Getting ready to deploy the hydrophone array to the middle of Ashumet Pond by kayak, for experimental testing." position="right" width="300px" %}
 
 The source box also had an internal mount for the electronics which I designed, as well as several holes around the case for buttons, the connection to the speaker itself (which would be deployed under the water), and a power button. Once the first box passed testing, I built up three more.
 
