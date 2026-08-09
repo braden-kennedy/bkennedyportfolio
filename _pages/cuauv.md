@@ -13,7 +13,7 @@ permalink: /cuauv/
 
 The Upper Hull Pressure Vessel, or UHPV, is one of the most critical components of our team's AUV. While other external components of the sub are modular and can easily be removed or attached while testing, the UHPV houses all of the electrical boards and it thus needs to be on a strict testing timeline and perform reliably.
 
-{% include figure.html src="cuauv/Sirius_Internals.HEIC" alt=" " caption="The UHPV of Sirius, the previous AUV, which I spent hours leak testing at our local pool prior to Robosub 2024." position="left" width="300px" %}
+{% include figure.html src="cuauv/Sirius_Internals.png" alt=" " caption="The UHPV of Sirius, the previous AUV, which I spent hours leak testing at our local pool prior to Robosub 2024." position="left" width="300px" %}
 
 Sophomores on CU AUV usually are assigned to less mission-critical components of the sub, but during the previous spring, I had spent a lot of time helping to leak test the UHPV of the previously designed sub, Sirius. I was able to discover the source of the leaks (microfractures in the welds of the aluminum plates), but more importantly, became very familiar with its other sealing surfaces and what made it inconvenient to work with. I also found out from designing my previous enclosure (for the downcam) that the team did not have a consistent guide for designing and machining o-ring grooves, and everyone interpreted the Parker O-Ring Handbook differently. Thus, I was entrusted with designing the next UHPV, and made it my goal to improve our understanding of o-ring seals.
 
