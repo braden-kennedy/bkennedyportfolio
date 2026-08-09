@@ -17,6 +17,8 @@ For each experimental trial, I would place my radiation source in the lead chamb
 
 In the end, I had some strange, unintuitive findings that surprised the professors running the course, but I think I was able to track down the cause of my findings to setting up the experiment differently than previous students. Specifically, I had used a thinner backing of tantalum in a lead-tantalum comparison test, which may have caused a backscatter rate to increase rather than decrease. The exact details are highlighted in my report, but they led me down an interesting "rabbit-hole" that allowed me to appreciate the complexity of solid-state physics, even for a relatively simple problem such as this one. This lab certainly helped me to better understand my lab work with Carl Franck, so I was happy I chose to do it first.
 
+{% include doc-banner.html file="images/documentation/N0_Kennedy_Hoffstaetter.pdf" label="View my Physics Review B style paper here" %}
+
 ## Torque Wrench
 
 *This project post is modified from a final assignment for MAE 3720 - Mechanics of Engineering Materials.*
@@ -76,3 +78,5 @@ Of the three experiments I conducted in the advanced lab class, I think the Cave
 I had previously used the "Physics Tracker" software program before to track chromatic aberration in another class, so I figured that this program could help me track the motion of the laser dot which I recorded using the provided camera. When I initially assumed that the apparatus was aligned perfectly (propagating error for anything that was misaligned) and ran my curve fit, I found that I could measure *G* this way to about 25% accuracy. However, I was able to confirm with more careful inspection of the balance that components were significantly askew, which I documented in my report. Factoring these asymmetries more carefully, I was able to improve the accuracy of my measurement down to 6%, which was more precise than any students had recently obtained on my apparatus. 
 
 Since the Cavendish Balance is such a classic experiment, it was fun to see how I could actually obtain *G* within even an order of magnitude with such as simple setup. It was a nice way to end PHYS 4410!
+
+{% include doc-banner.html file="images/documentation/G8_Kennedy_Ramshaw.pdf" label="View my Physics Review B style paper here" %}
