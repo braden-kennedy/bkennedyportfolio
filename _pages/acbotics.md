@@ -9,7 +9,7 @@ permalink: /acbotics/
 
 *May 2025 - August 2025*
 
-{% include figure.html src="acbotics/Large_AcSample_Prototype_Full.png" alt=" " caption="The CAD model for an early prototype of the AcSample eDNA sampler. Each unit consisted of a triplicate pump system (housed in the T-joint PVC fixture), the electronics housing (the other PVC tube shown in the back), and the outer metal framing. During the summer of 2025, I was responsible for designing and manufacturing the outer housings for several different sampler prototypes. Feedback received on these helped to shape the production version of these samplers." position="full" width="450px" %}
+{% include figure.html src="acbotics/Large_AcSample_Prototype_Full.png" alt=" " caption="The CAD model for an early prototype of the AcSample eDNA sampler. Each unit consisted of a triplicate pump system (housed in the T-joint PVC fixture), the electronics housing (the other PVC tube shown in the back), and the outer metal framing. During the summer of 2025, I was responsible for designing and manufacturing the outer housings for several different sampler prototypes. Feedback received on these helped to shape the production version of these samplers." position="wide" width="450px" %}
 
 {% include figure.html src="acbotics/MakeraCAM.JPG" alt=" " caption="The mounting plate I made for the large eDNA prototype, using MakeraCam." position="left" width="300px" %}
 
