@@ -19,29 +19,29 @@ Outside of classes and engineering projects, I enjoy running, hiking, and being 
 
 <div class="research-grid">
 
-<div class="research-card">
+<a href="{{ site.url }}{{ site.baseurl }}/acbotics/#acsample-production" class="research-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/acbotics/AcSample_CADFull.JPG" class="research-thumb" alt=" ">
 <div class="research-body">
 <h4 class="research-title">AcSample Production</h4>
 <p class="research-desc">*January 2026, May 2026 - August 2026*</p>
 </div>
-</div>
+</a>
 
-<div class="research-card">
+<a href="{{ site.url }}{{ site.baseurl }}/acbotics/#acsample-prototype" class="research-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/acbotics/Large_AcSample_Prototype_Full.png" class="research-thumb" alt=" ">
 <div class="research-body">
 <h4 class="research-title">AcSample Prototype</h4>
 <p class="research-desc">*May 2025 - August 2025*</p>
 </div>
-</div>
+</a>
 
-<div class="research-card">
+<a href="{{ site.url }}{{ site.baseurl }}/acbotics/#plutos-source-box" class="research-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/acbotics/PLUTOS_Source_Box_Assembly.png" class="research-thumb" alt=" ">
 <div class="research-body">
 <h4 class="research-title">PLUTOS Source Box</h4>
 <p class="research-desc">*May 2025 - August 2025*</p>
 </div>
-</div>
+</a>
 
 </div>
 
@@ -49,29 +49,29 @@ Outside of classes and engineering projects, I enjoy running, hiking, and being 
 
 <div class="research-grid">
 
-<div class="research-card">
+<a href="{{ site.url }}{{ site.baseurl }}/cuauv/#uhpv-orions-pressure-vessel" class="research-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/cuauv/Orion_Full.png" class="research-thumb" alt=" ">
 <div class="research-body">
 <h4 class="research-title">UHPV (Orion's Pressure Vessel)</h4>
 <p class="research-desc">*Designed Fall 2024, Fabricated/Assembled Spring 2025*</p>
 </div>
-</div>
+</a>
 
-<div class="research-card">
+<a href="{{ site.url }}{{ site.baseurl }}/cuauv/#summer-lead-robosub-2024-3rd-place-overall" class="research-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/cuauv/Competition_TeamPic.PNG" class="research-thumb" alt=" ">
 <div class="research-body">
 <h4 class="research-title">Summer Lead, RoboSub 2024</h4>
 <p class="research-desc">*May 2024 - August 2024, Competition Week August 5-11*</p>
 </div>
-</div>
+</a>
 
-<div class="research-card">
+<a href="{{ site.url }}{{ site.baseurl }}/cuauv/#downcam-enclosure" class="research-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/cuauv/Downcam_Full.png" class="research-thumb" alt=" ">
 <div class="research-body">
 <h4 class="research-title">Downcam Enclosure</h4>
 <p class="research-desc">*Designed Fall 2023, Fabricated/Assembled Spring 2024*</p>
 </div>
-</div>
+</a>
 
 </div>
 
@@ -79,29 +79,29 @@ Outside of classes and engineering projects, I enjoy running, hiking, and being 
 
 <div class="research-grid">
 
-<div class="research-card">
+<a href="{{ site.url }}{{ site.baseurl }}/other/#gamma-ray-spectroscopy-lab" class="research-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/other/GammaSpec.JPG" class="research-thumb" alt=" ">
 <div class="research-body">
 <h4 class="research-title">Gamma Ray Spectroscopy</h4>
 <p class="research-desc">*PHYS 4410 - Advanced Physics Lab*</p>
 </div>
-</div>
+</a>
 
-<div class="research-card">
+<a href="{{ site.url }}{{ site.baseurl }}/other/#torque-wrench" class="research-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/other/Screenshot 2026-08-02 114417.png" class="research-thumb" alt=" ">
 <div class="research-body">
 <h4 class="research-title">Torque Wrench</h4>
 <p class="research-desc">*MAE 3720 - Mechanics of Engineering Materials.*</p>
 </div>
-</div>
+</a>
 
-<div class="research-card">
+<a href="{{ site.url }}{{ site.baseurl }}/other/#cavendish-balance" class="research-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/other/Cavendish_Full.JPG" class="research-thumb" alt=" ">
 <div class="research-body">
 <h4 class="research-title">Cavendish Balance</h4>
 <p class="research-desc">*PHYS 4410 - Advanced Physics Lab*</p>
 </div>
-</div>
+</a>
 
 </div>
 
