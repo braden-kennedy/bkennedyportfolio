@@ -19,13 +19,15 @@ Outside of classes and engineering projects, I enjoy running, hiking, and being 
 
 <div class="research-grid">
 
-<a href="{{ site.url }}{{ site.baseurl }}/acbotics/#acsample-production" class="research-card" markdown="0">
-<img src="{{ site.url }}{{ site.baseurl }}/images/acbotics/AcSample_CADFull.JPG" class="research-thumb" alt=" ">
-<div class="research-body">
-<h4 class="research-title">AcSample Production</h4>
-<p class="research-desc">*January 2026, May 2026 - August 2026*</p>
-</div>
+<div markdown="0">
+<a href="{{ site.url }}{{ site.baseurl }}/acbotics/#acsample-production" class="research-card">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/acbotics/AcSample_CADFull.JPG" class="research-thumb" alt="">
+  <div class="research-body">
+    <h4 class="research-title">AcSample Production</h4>
+    <p class="research-desc"><em>January 2026, May 2026 - August 2026</em></p>
+  </div>
 </a>
+</div>
 
 <a href="{{ site.url }}{{ site.baseurl }}/acbotics/#acsample-prototype" class="research-card" markdown="0">
 <img src="{{ site.url }}{{ site.baseurl }}/images/acbotics/Large_AcSample_Prototype_Full.png" class="research-thumb" alt=" ">
