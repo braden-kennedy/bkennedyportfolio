@@ -7,7 +7,7 @@ Parameters:
   label - text shown on the banner (default: "View Documentation")
 {% endcomment %}
 {% assign doc_label = include.label | default: "View Documentation" %}
-<a href="{{ site.url }}{{ site.baseurl }}/files/{{ include.file }}" class="doc-banner" target="_blank" rel="noopener" markdown="0">
+<a href="{{ site.url }}{{ site.baseurl }}/images/documentation/{{ include.file }}" class="doc-banner" target="_blank" rel="noopener" markdown="0">
   <span class="doc-banner-icon"><i class="fa-solid fa-file-pdf"></i></span>
   <span class="doc-banner-label">{{ doc_label }}</span>
   <span class="doc-banner-arrow"><i class="fa-solid fa-arrow-right"></i></span>
