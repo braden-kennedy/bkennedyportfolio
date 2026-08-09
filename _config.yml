@@ -39,6 +39,7 @@ analytics:
 nav_pages:
   - name: about
   - name: acbotics
+    label: "Directory"
   # - name: publications
   - name: cuauv
     label: "CU AUV"
