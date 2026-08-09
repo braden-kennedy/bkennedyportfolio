@@ -17,7 +17,7 @@ For each experimental trial, I would place my radiation source in the lead chamb
 
 In the end, I had some strange, unintuitive findings that surprised the professors running the course, but I think I was able to track down the cause of my findings to setting up the experiment differently than previous students. Specifically, I had used a thinner backing of tantalum in a lead-tantalum comparison test, which may have caused a backscatter rate to increase rather than decrease. The exact details are highlighted in my report, but they led me down an interesting "rabbit-hole" that allowed me to appreciate the complexity of solid-state physics, even for a relatively simple problem such as this one. This lab certainly helped me to better understand my lab work with Carl Franck, so I was happy I chose to do it first.
 
-## Ansys Wrench
+## Torque Wrench
 
 *This project post is modified from a final assignment for MAE 3720 - Mechanics of Engineering Materials.*
 
