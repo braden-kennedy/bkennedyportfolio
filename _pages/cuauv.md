@@ -9,7 +9,7 @@ permalink: /cuauv/
 
 *Designed Fall 2024, Fabricated/Assembled Spring 2025*
 
-{% include figure.html src="cuauv/Orion_Full.png" alt=" " caption="The full CAD assembly of Orion's UHPV, the main pressure vessel of the AUV. It housed all of the electronics of the AUV (including a Jetson Nano and a ZED stereo camera) and has two panels on the port and starboard sides with bulkheads to connect to all the external devices on the AUV. I designed the UHPV in the fall of 2024 and assembled/leak tested it in the following spring (2025)." position="full" width="450px" %}
+{% include figure.html src="cuauv/Orion_Full.png" alt=" " caption="The full CAD assembly of Orion's UHPV, the main pressure vessel of the AUV. It housed all of the electronics of the AUV (including a Jetson Nano and a ZED stereo camera) and has two panels on the port and starboard sides with bulkheads to connect to all the external devices on the AUV. I designed the UHPV in the fall of 2024 and assembled/leak tested it in the following spring (2025)." position="wide" width="70%" %}
 
 The Upper Hull Pressure Vessel, or UHPV, is one of the most critical components of our team's AUV. While other external components of the sub are modular and can easily be removed or attached while testing, the UHPV houses all of the electrical boards and it thus needs to be on a strict testing timeline and perform reliably.
 
@@ -39,7 +39,7 @@ I thoroughly enjoyed working on this project, as it was a nice challenge for me.
 
 *May 2024 - August 2024, Competition Week August 5-11*
 
-{% include figure.html src="cuauv/Competition_TeamPic.PNG" alt=" " caption="A picture of the CUAUV summer team at the RoboSub 2024 competition. Only a handful of members, mostly freshman, stayed in Ithaca during the summer to conduct the final assembly of our AUVs and travel with them to competition. I was responsible for coordinating our in-person teams with other members who were remote, and made many time-sensitive decisions at Robosub which earned us 3rd place overall." position="full" width="450px" %}
+{% include figure.html src="cuauv/Competition_TeamPic.PNG" alt=" " caption="A picture of the CUAUV summer team at the RoboSub 2024 competition. Only a handful of members, mostly freshman, stayed in Ithaca during the summer to conduct the final assembly of our AUVs and travel with them to competition. I was responsible for coordinating our in-person teams with other members who were remote, and made many time-sensitive decisions at Robosub which earned us 3rd place overall." position="wide" width="80%" %}
 
 Following my first year on the CU AUV team, I stayed in Ithaca over the summer to help prepare our AUVs (Sirius and Polaris) for our main competition, Robosub, in August. Most of our members (especially the leadership team) had internships and other jobs elsewhere in the summer, so it was primarily the responsibility of our team's freshman to get the last leg of work done on the AUVs with remote help. Because no older members were able to be in Ithaca for the full summer, I was selected to be the summer lead/team coordinator, responsible for reporting the current status of our AUVs throughout the summer, connecting remote leadership members with the team as problems arose, and executing "game-time" decisions at the competition itself to help our team perform the best.
 
@@ -67,7 +67,7 @@ This summer had been one of my biggest challenges as a leader. Since there were 
 
 *Designed Fall 2023, Fabricated/Assembled Spring 2024*
 
-{% include figure.html src="cuauv/Downcam_Full.png" alt=" " caption="A rendering of Sirius's downcam enclosure, designed to enclose a IDS UI camera up to a depth of 10 meters. It has two outgoing cables (for data and power), and fit snugly beneath the main pressure vessel of Sirius. The camera enabled the AUV to see tasks beneath it, dropping and picking up game pieces in specific locations." position="full" width="450px" %}
+{% include figure.html src="cuauv/Downcam_Full.png" alt=" " caption="A rendering of Sirius's downcam enclosure, designed to enclose a IDS UI camera up to a depth of 10 meters. It has two outgoing cables (for data and power), and fit snugly beneath the main pressure vessel of Sirius. The camera enabled the AUV to see tasks beneath it, dropping and picking up game pieces in specific locations." position="wide" width="65%" %}
 
 My very first project on the CU AUV team was to design an enclosure for our downwards-facing camera (dubbed the "downcam"), which was critical for completing tasks at the bottom of the pool. Although I had used Onshape in high school to design and print some intake systems, this was my first time working on a full mechanical engineering project that would go through design cycles and be machined by myself.
 
