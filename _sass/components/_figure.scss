@@ -77,3 +77,49 @@
     margin-right: 0;
   }
 }
+
+.figure-wide {
+  display: flex;
+  align-items: stretch;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+
+  .figure-image-wrap {
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+
+  .figure-image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .figure-caption {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border-top: none;
+    border-left: 1px solid var(--border-color);
+    padding: var(--space-4) var(--space-6);
+    margin-top: 0;
+    flex: 1;
+  }
+
+  // Stack on mobile so the caption doesn't get squeezed
+  @media (max-width: 600px) {
+    flex-direction: column;
+
+    .figure-image-wrap {
+      width: 100% !important;
+    }
+
+    .figure-caption {
+      border-left: none;
+      border-top: 1px solid var(--border-color);
+      text-align: center;
+    }
+  }
+}
