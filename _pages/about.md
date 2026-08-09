@@ -17,7 +17,7 @@ Outside of classes and engineering projects, I enjoy running, hiking, and being 
 
 ### Acbotics
 
-<div class="research-grid">
+<div class="research-grid" markdown="0">
 
 <a href="{{ site.url }}{{ site.baseurl }}/acbotics/#acsample-production">
 <div class="research-card">
