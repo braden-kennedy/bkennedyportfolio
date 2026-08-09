@@ -7,6 +7,10 @@ permalink: /other/
 
 ## Gamma Ray Spectroscopy Lab
 
+*PHYS 4410 - Advanced Physics Lab*
+
+
+
 ## Ansys Wrench
 
 *This project post is modified from a final assignment for MAE 3720 - Mechanics of Engineering Materials.*
@@ -54,3 +58,15 @@ See https://cornell-mae-ug.github.io/fa25-portfolio-bak232-taco/projects/2025-MA
 {% endcomment %}
 
 ## Cavendish Balance
+
+*PHYS 4410 - Advanced Physics Lab*
+
+{% include figure.html src="other/Cavendish_Full.JPG" alt=" " caption="The Cavendish Balance I used for my lab experiment, consisting of a small dumbbell of masses suspended by a copper ribbon, two larger masses pivoting around the rotation axis of the ribbon, and a laser pointed at a mirror. I also had a ruler and camera pointed at the opposite wall, not shown." position="right" width="300px" %}
+
+Of the three experiments I conducted in the advanced lab class, I think the Cavendish Balance was certainly the most fun. I was given a basic Cavendish balance apparatus, with the goal of extracting the gravitational constant *G* using a variety of set methods. I was given some key measurements about the apparatus (namely the dimensions of the dumbbell masses inside the box, since the apparatus was very delicate), but otherwise I needed to determine the most effective way to take data and properly model the system to the best of my ability. Since I wanted to get one method for measuring *G* that was especially accurate, I focused on curve-fitting the motion of the dumbbell to a damped sinusoidal.
+
+{% include figure.html src="other/Cavendish_Tracker.JPG" alt=" " caption="The Physics Tracker program following the dot of the laser against the wall in 0.2 second increments. I fit a damped sinusoidal to resulting motion to extract *G*, the gravitational constant." position="right" width="300px" %}
+
+I had previously used the "Physics Tracker" software program before to track chromatic aberration in another class, so I figured that this program could help me track the motion of the laser dot which I recorded using the provided camera. When I initially assumed that the apparatus was aligned perfectly (propagating error for anything that was misaligned) and ran my curve fit, I found that I could measure *G* this way to about 25% accuracy. However, I was able to confirm with more careful inspection of the balance that components were significantly askew, which I documented in my report. Factoring these asymmetries more carefully, I was able to improve the accuracy of my measurement down to 6%, which was more precise than any students had recently obtained on my apparatus. 
+
+Since the Cavendish Balance is such a classic experiment, it was fun to see how I could actually obtain *G* within even an order of magnitude with such as simple setup. It was a nice way to end PHYS 4410!
