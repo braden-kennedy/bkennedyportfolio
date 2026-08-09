@@ -9,6 +9,8 @@ permalink: /cuauv/
 
 *Designed Fall 2024, Fabricated/Assembled Spring 2025*
 
+{% include doc-banner.html file="images/documentation/Orion_UHPV___Braden_Kennedy___CUAUV_Technical_Documentation (2).pdf" label="View Full UHPV Design Report" %}
+
 {% include figure.html src="cuauv/Orion_Full.png" alt=" " caption="The full CAD assembly of Orion's UHPV, the main pressure vessel of the AUV. It housed all of the electronics of the AUV (including a Jetson Nano and a ZED stereo camera) and has two panels on the port and starboard sides with bulkheads to connect to all the external devices on the AUV. I designed the UHPV in the fall of 2024 and assembled/leak tested it in the following spring (2025)." position="wide" width="70%" %}
 
 The Upper Hull Pressure Vessel, or UHPV, is one of the most critical components of our team's AUV. While other external components of the sub are modular and can easily be removed or attached while testing, the UHPV houses all of the electrical boards and it thus needs to be on a strict testing timeline and perform reliably.
