@@ -9,7 +9,7 @@ permalink: /acbotics/
 
 *May 2025 - August 2025*
 
-{% include figure.html src="acbotics/Large_AcSample_Prototype_Full.png" alt=" " caption="The CAD model for an early prototype of the AcSample eDNA sampler. Each unit consisted of a triplicate pump system (housed in the T-joint PVC fixture), the electronics housing (the other PVC tube shown in the back), and the outer metal framing. During the summer of 2025, I was responsible for designing and manufacturing the outer housings for several different sampler prototypes. Feedback received on these helped to shape the production version of these samplers." position="wide" width="80%" %}
+{% include figure.html src="acbotics/Large_AcSample_Prototype_Full.png" alt=" " caption="The CAD model for an early prototype of the AcSample eDNA sampler. Each unit consisted of a triplicate pump system (housed in the T-joint PVC fixture), the electronics housing (the other PVC tube shown in the back), and the outer metal framing. During the summer of 2025, I was responsible for designing and manufacturing the outer housings for several different sampler prototypes. Feedback received on these helped to shape the production version of these samplers." position="wide" width="70%" %}
 
 {% include figure.html src="acbotics/MakeraCAM.JPG" alt=" " caption="The mounting plate I made for the large eDNA prototype, using MakeraCam." position="left" width="300px" %}
 
@@ -33,7 +33,7 @@ Finally, after designing these two prototypes, I was tasked with making a fixtur
 
 *January 2026, May 2026 - August 2026*
 
-{% include figure.html src="acbotics/AcSample_CADFull.JPG" alt=" " caption="The full, assembled version of the first production AcSample models. Each unit consists of three separate pumps, each with their own flow sensors, that are fed into external filters chosen by the customer. The entire assembly is mounted to a red baseplate to make it easier to deploy at the desired depth. During the winter of 2025/2026 and the summer of 2026, I helped to refine the pre-production design into scalable, easy-to-assemble product and created lots of internal documentation (assembly instructions, engineering drawings, etc.)." position="full" width="450px" %}
+{% include figure.html src="acbotics/AcSample_CADFull.JPG" alt=" " caption="The full, assembled version of the first production AcSample models. Each unit consists of three separate pumps, each with their own flow sensors, that are fed into external filters chosen by the customer. The entire assembly is mounted to a red baseplate to make it easier to deploy at the desired depth. During the winter of 2025/2026 and the summer of 2026, I helped to refine the pre-production design into scalable, easy-to-assemble product and created lots of internal documentation (assembly instructions, engineering drawings, etc.)." position="wide" width="80%" %}
 
 {% include figure.html src="acbotics/AcSample_FullProto.JPG" alt=" " caption="A pre-production model of the AcSample." position="right" width="300px" %}
 
@@ -54,7 +54,7 @@ While working on this project, I also recommended that the team invest in a new 
 ## PLUTOS Source Box
 *May 2025 - August 2025*
 
-{% include figure.html src="acbotics/PLUTOS_Source_Box_Assembly.png" alt=" " caption="The full assembly CAD model of the PLUTOS Source Box which I designed as one of my first projects at Acbotics during the summer of 2025. An underwater speaker plugs into the box on the side, and four buttons on the top allow the user to choose what sound to play. The box is IP-67 and houses a Li-Ion battery, an amplifier, and other electronics. I built four of these units, and they were used for underwater acoustic experiments involving seal calls." position="full" width="450px" %}
+{% include figure.html src="acbotics/PLUTOS_Source_Box_Assembly.png" alt=" " caption="The full assembly CAD model of the PLUTOS Source Box which I designed as one of my first projects at Acbotics during the summer of 2025. An underwater speaker plugs into the box on the side, and four buttons on the top allow the user to choose what sound to play. The box is IP-67 and houses a Li-Ion battery, an amplifier, and other electronics. I built four of these units, and they were used for underwater acoustic experiments involving seal calls." position="wide" width="70%" %}
 
 {% include figure.html src="acbotics/SoundBox_Epoxy.JPG" alt=" " caption="Epoxy securing the bezel to the case." position="right" width="300px" %}
 
