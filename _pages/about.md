@@ -33,7 +33,7 @@ Outside of classes and engineering projects, I enjoy running, hiking, and being 
 <img src="{{ site.url }}{{ site.baseurl }}/images/acbotics/Large_AcSample_Prototype_Full.png" class="research-thumb" alt=" ">
 <div class="research-body">
 <h4 class="research-title">AcSample Prototype</h4>
-<p class="research-desc">*May 2025 - August 2025*</p>
+<p class="research-desc"><em>May 2025 - August 2025</em></p>
 </div>
 </a>
 
@@ -41,7 +41,7 @@ Outside of classes and engineering projects, I enjoy running, hiking, and being 
 <img src="{{ site.url }}{{ site.baseurl }}/images/acbotics/PLUTOS_Source_Box_Assembly.png" class="research-thumb" alt=" ">
 <div class="research-body">
 <h4 class="research-title">PLUTOS Source Box</h4>
-<p class="research-desc">*May 2025 - August 2025*</p>
+<p class="research-desc"><em>May 2025 - August 2025</em></p>
 </div>
 </a>
 
@@ -49,13 +49,13 @@ Outside of classes and engineering projects, I enjoy running, hiking, and being 
 
 ### CU AUV
 
-<div class="research-grid">
+<div class="research-grid" markdown="0">
 
 <a href="{{ site.url }}{{ site.baseurl }}/cuauv/#uhpv-orions-pressure-vessel" class="research-card" markdown="0">
 <img src="{{ site.url }}{{ site.baseurl }}/images/cuauv/Orion_Full.png" class="research-thumb" alt=" ">
 <div class="research-body">
 <h4 class="research-title">UHPV (Orion's Pressure Vessel)</h4>
-<p class="research-desc">*Designed Fall 2024, Fabricated/Assembled Spring 2025*</p>
+<p class="research-desc"><em>Designed Fall 2024, Fabricated/Assembled Spring 2025</em></p>
 </div>
 </a>
 
@@ -63,7 +63,7 @@ Outside of classes and engineering projects, I enjoy running, hiking, and being 
 <img src="{{ site.url }}{{ site.baseurl }}/images/cuauv/Competition_TeamPic.PNG" class="research-thumb" alt=" ">
 <div class="research-body">
 <h4 class="research-title">Summer Lead, RoboSub 2024</h4>
-<p class="research-desc">*May 2024 - August 2024, Competition Week August 5-11*</p>
+<p class="research-desc"><em>May 2024 - August 2024, Competition Week August 5-11</em></p>
 </div>
 </a>
 
@@ -71,7 +71,7 @@ Outside of classes and engineering projects, I enjoy running, hiking, and being 
 <img src="{{ site.url }}{{ site.baseurl }}/images/cuauv/Downcam_Full.png" class="research-thumb" alt=" ">
 <div class="research-body">
 <h4 class="research-title">Downcam Enclosure</h4>
-<p class="research-desc">*Designed Fall 2023, Fabricated/Assembled Spring 2024*</p>
+<p class="research-desc"><em>Designed Fall 2023, Fabricated/Assembled Spring 2024</em></p>
 </div>
 </a>
 
@@ -79,13 +79,13 @@ Outside of classes and engineering projects, I enjoy running, hiking, and being 
 
 ### Academic
 
-<div class="research-grid">
+<div class="research-grid" markdown="0">
 
 <a href="{{ site.url }}{{ site.baseurl }}/other/#gamma-ray-spectroscopy-lab" class="research-card" markdown="0">
 <img src="{{ site.url }}{{ site.baseurl }}/images/other/GammaSpec.JPG" class="research-thumb" alt=" ">
 <div class="research-body">
 <h4 class="research-title">Gamma Ray Spectroscopy</h4>
-<p class="research-desc">*PHYS 4410 - Advanced Physics Lab*</p>
+<p class="research-desc"><em>PHYS 4410 - Advanced Physics Lab</em></p>
 </div>
 </a>
 
@@ -93,7 +93,7 @@ Outside of classes and engineering projects, I enjoy running, hiking, and being 
 <img src="{{ site.url }}{{ site.baseurl }}/images/other/Screenshot 2026-08-02 114417.png" class="research-thumb" alt=" ">
 <div class="research-body">
 <h4 class="research-title">Torque Wrench</h4>
-<p class="research-desc">*MAE 3720 - Mechanics of Engineering Materials.*</p>
+<p class="research-desc"><em>MAE 3720 - Mechanics of Engineering Materials.</em></p>
 </div>
 </a>
 
@@ -101,7 +101,7 @@ Outside of classes and engineering projects, I enjoy running, hiking, and being 
 <img src="{{ site.url }}{{ site.baseurl }}/images/other/Cavendish_Full.JPG" class="research-thumb" alt=" ">
 <div class="research-body">
 <h4 class="research-title">Cavendish Balance</h4>
-<p class="research-desc">*PHYS 4410 - Advanced Physics Lab*</p>
+<p class="research-desc"><em>PHYS 4410 - Advanced Physics Lab</em></p>
 </div>
 </a>
 
