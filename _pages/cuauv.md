@@ -9,8 +9,6 @@ permalink: /cuauv/
 
 *Designed Fall 2024, Fabricated/Assembled Spring 2025*
 
-{% include doc-banner.html file="images/documentation/Orion_UHPV___Braden_Kennedy___CUAUV_Technical_Documentation (2).pdf" label="View Full UHPV Design Report" %}
-
 {% include figure.html src="cuauv/Orion_Full.png" alt=" " caption="The full CAD assembly of Orion's UHPV, the main pressure vessel of the AUV. It housed all of the electronics of the AUV (including a Jetson Nano and a ZED stereo camera) and has two panels on the port and starboard sides with bulkheads to connect to all the external devices on the AUV. I designed the UHPV in the fall of 2024 and assembled/leak tested it in the following spring (2025)." position="wide" width="70%" %}
 
 The Upper Hull Pressure Vessel, or UHPV, is one of the most critical components of our team's AUV. While other external components of the sub are modular and can easily be removed or attached while testing, the UHPV houses all of the electrical boards and it thus needs to be on a strict testing timeline and perform reliably.
@@ -36,6 +34,8 @@ In the meantime, I also created an entirely new sealing guide for the whole mech
 The mechanical subteam worked quickly to integrate the frame, thrusters, and other key components of the sub so that it could begin its first live tests. Although we can model all of the materials in Solidworks and obtain the center of mass/buoyancy for our sub, it is difficult to model all of the SEACON cables that are connected, and thus often our initial calculations are off. When we first put Orion in the water, it heavily favored its backside. However, we regularly need to add floats and counterweights to our subs to balance them, which we added at the following pool tests until the sub was level without needing help from the thrusters.
 
 I thoroughly enjoyed working on this project, as it was a nice challenge for me. I got to run simulations, make proper drawings to outsource a complicated part, and successfully made improvements to a design that had some tricky flaws. My o-ring guide has also already been adopted by new members of the team, so it is nice to know that a side project I spent a lot of time on will be a valuable resource for years to come.
+
+{% include doc-banner.html file="images/documentation/Orion_UHPV___Braden_Kennedy___CUAUV_Technical_Documentation (2).pdf" label="View my UHPV design documentation" %}
 
 ## Summer Lead, RoboSub 2024 (3rd Place Overall)
 
@@ -80,3 +80,5 @@ Our team had a 4-step design review process, the first of which was to just revi
 {% include figure.html src="cuauv/Downcam_Sim.png" alt=" " caption="A pressure simulation for the Sirius downcam." position="left" width="300px" %}
 
 Since our timeline was fairly tight following our design cycle, I didn't get to machine every component of my enclosure. I did, however, get to machine the hull, which was both the largest component and one of the most challenging, since it had multiple o-ring seals that needed to be cut quite precisely. It was my first time machining and the rest of the team was quite busy, so just as I was finishing the second o-ring groove as one of my last operations, I misread my drawing and cut the inner diameter short by around 70 thou. Despite being over 12 hours into my part, I was instructed to scrap it and start over, but I was much faster at machining it a second time now that I was familiar with the lathe. Even with the setback, I was one of only a few members of the mechanical subteam that got their part fully machined and leak tested prior to the end of the semester.
+
+{% include doc-banner.html file="images/documentation/Sirius_Downcam_Enclosure___Braden_Kennedy___CUAUV_Technical_Documentation (1).pdf" label="View my downcam design documentation" %}
