@@ -1,6 +1,6 @@
 {%- comment -%}
 Usage:
-{%- include figure.html src="project1/setup.jpg" alt="Test rig setup" caption="Our custom test rig for underwater trials." position="right" width="320px" -%}
+{%- include figure.html src="other/setup.jpg" alt="Alt text" caption="Insert caption here." position="right" width="320px" -%}
 
 Parameters:
   src      - path relative to /images/ (required)
@@ -13,11 +13,22 @@ Parameters:
 {% assign fig_position = include.position | default: "full" %}
 {% if include.width %}
   {% assign fig_width = include.width %}
-{% elsif fig_position == "full" %}
-  {% assign fig_width = "100%" %}
-{% else %}
+{% elsif fig_position == "left" or fig_position == "right" %}
   {% assign fig_width = "300px" %}
+{% else %}
+  {% assign fig_width = "100%" %}
 {% endif %}
+{% assign fig_image_width = include.image_width | default: "45%" %}
+{% if fig_position == "wide" %}
+<div class="figure-card figure-wide" markdown="0" style="width: {{ fig_width }};">
+  <div class="figure-image-wrap" style="width: {{ fig_image_width }};">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/{{ include.src }}" alt="{{ include.alt }}" loading="lazy">
+  </div>
+  {% if include.caption %}
+  <div class="figure-caption">{{ include.caption }}</div>
+  {% endif %}
+</div>
+{% else %}
 <div class="figure-card figure-{{ fig_position }}" markdown="0" style="width: {{ fig_width }};">
   <div class="figure-image-wrap">
     <img src="{{ site.url }}{{ site.baseurl }}/images/{{ include.src }}" alt="{{ include.alt }}" loading="lazy">
@@ -26,3 +37,4 @@ Parameters:
   <div class="figure-caption">{{ include.caption }}</div>
   {% endif %}
 </div>
+{% endif %}
