@@ -9,7 +9,7 @@ permalink: /other/
 
 *PHYS 4410 - Advanced Physics Lab*
 
-{% include figure.html src="other/GammaSpec.JPG" alt=" " caption="The apparatus for my experiment, consisting of a PMT with an NaI (Ti) scintillator, lead walls, and a radioactive sample. I worked with Cs-137, Co-60, and Na-22." position="right" width="300px" %}
+{% include figure.html src="other/GammaSpec.JPG" alt=" " caption="The apparatus for my experiment, consisting of a PMT with an NaI (Ti) scintillator, lead walls, and a radioactive sample. I worked with Cs-137, Co-60, and Na-22." position="right" width="70%" %}
 
 Since my research under LASSP involves gamma ray radiation, scintillation, and photomultiplier tubes (PMTs), I decided to spend my first lab in PHYS 4410 getting more familiar with these concepts by doing some Gamma Ray Spectroscopy. This lab is also particularly memorable for me because all of my data was originally taken on a modem running Windows XP, using amplifiers and other hardware that was out of the 70s and 80s. Even if the technology was ancient, it was able to give me great data and interesting findings in my report!
 
