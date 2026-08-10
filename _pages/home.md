@@ -24,7 +24,7 @@ I am currently seeking Summer 2027 internships in robotics, aerospace, and hardw
 
 Outside of classes and engineering projects, I enjoy running, hiking, and being outdoors! When the weather is warm, I like planning small camping trips and day hikes. Once colder winter days arrive, I can be found teaching new tabletop games to my friends or reading from my chess book library.
 
-<a href="{{ site.url }}{{ site.baseurl }}/about" class="doc-banner" target="_blank" rel="noopener" markdown="0">
+<a href="{{ site.url }}{{ site.baseurl }}/about" class="doc-banner" target="_blank" markdown="0">
   <span class="doc-banner-label">Go to project directory</span>
   <span class="doc-banner-arrow"><i class="fa-solid fa-arrow-right"></i></span>
 </a>
