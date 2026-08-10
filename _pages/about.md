@@ -6,6 +6,7 @@ permalink: /about/
 ---
 
 ## All Projects
+Click on any project to learn more information
 
 ### Acbotics
 
