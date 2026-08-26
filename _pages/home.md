@@ -14,7 +14,7 @@ permalink: /
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Lab of Atomic and Solid State Physics (LASSP)</a>
 </div>
 
-Thanks for stopping by to my online portfolio! Here, you can find longer descriptions of my previous and current work than what fits onto my resume or LinkedIn, accompanied by more links and photos.
+Thanks for stopping by my online portfolio! Here, you can find longer descriptions of my previous and current work than what fits onto my resume or LinkedIn, accompanied by more links and photos.
 
 ### About Me
 
